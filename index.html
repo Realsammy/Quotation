@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+
+    <!--Import CSS Files-->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="title">
+          <h1>Auto Quote Generator</h1>
+        </div>
+      </header> 
+      <div class="content">
+        <div class="container">
+          <div id="choose">
+                <div class="title">
+                  <p>Please Choose Quote Type</p>
+                <div class="choose-type">
+                  <div>
+                    <button id="inspiration">Inspirational</button>
+                  </div>
+                    <button id="motivation">Motivational</button>
+                </div>
+              </div>
+                <div class="title">
+                  <p>Please Choose Number of Quotes</p>
+                </div>
+                  <input
+                    type="radio"
+                    id="value-1"
+                    name = "valu"
+                    value="1">1</label>
+
+                  <input
+                    type="radio"
+                    id="value-2"
+                    name="valu"
+                    value="2"/>
+                  <label for="value-2">2</label>
+
+                  <input
+                    type="radio"
+                    id="value-3"
+                    name="valu"
+                    value="3"/>
+                  <label for="value-3">3</label>
+
+                  <input
+                    type="radio"
+                    id="value-4"
+                    name="valu"
+                    value="4"    />
+                  <label for="value-4">4</label>
+
+                  <input
+                    type="radio"
+                    id="value-5"
+                    name="valu"
+                    value="5"/>
+                  <label for="value-5">5</label>
+                </div>
+              </div>
+                <button id="generate">Generate</button>
+              </div>
+            </div>
+              <div class="your-quotes">
+                <div class="title">
+                  <p>Your Quotes</p>
+                  <ul id="results"></ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/script.js"></script>
+
+    
+  </body>
+</html>
